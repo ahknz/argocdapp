@@ -21,6 +21,6 @@ spec:
       - image: ahknz/flaskapi:1.2
         name: flaskapi
         ports:
-        - containerPort: 8080
+        - containerPort: 5000
         resources: {}
 status: {}
