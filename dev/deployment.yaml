@@ -18,7 +18,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: ahknz/flaskapi:1.2
+      - image: ahknz/flaskapi:{{ .Values.env.APP_VERSION }}
         name: flaskapi
         ports:
         - containerPort: 5000
